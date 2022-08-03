@@ -1,8 +1,10 @@
 ## What next?
 
-If you are following the [PathName](https://projects.raspberrypi.org/en/raspberrypi/path-name) path, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+If you are following the [Intro to the SenseHAT](https://projects.raspberrypi.org/en/raspberrypi/sense-intro) path, you can move on to the [Chameleon lights](https://projects.raspberrypi.org/en/projects/chameleon-lights) project. In this project, you will make a chameleon that sensing the colours in the environment and copies it.
 
 --- print-only ---
+
+<mark>To follow<mark>
 
 ![ProjectName project](images/projectname-project.png)
 
@@ -10,10 +12,12 @@ If you are following the [PathName](https://projects.raspberrypi.org/en/raspberr
 
 --- no-print ---
 
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/486719199/?autostart=false" frameborder="0"></iframe>
+<mark>To follow<mark>
+
+<div class="trinket">
+<iframe src="https://trinket.io/embed/python/75dccd82ad?outputOnly=true&runOption=run" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
 --- /no-print ---
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+
