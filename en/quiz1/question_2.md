@@ -32,11 +32,15 @@ When they run their code it does not display any blue, it only uses brown. Why i
 
   --- feedback ---
 
+Try again. Line 6 is written correctly but there is something else wrong with the code. 
+
   --- /feedback ---
 
 - (x) The code on line 6 is correct. However, when Python goes to line 7 it creates a new variable called `b` and stores the brown colour values within it. This is the variable that is access when the `b` variable is called to display the colour.
 
   --- feedback ---
+
+Correct! Always use different variable names for your colours. 
 
   --- /feedback ---
 
