@@ -8,9 +8,9 @@ copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
-  - title: Step title
-  - title: Step title
+  - title: Create your first frame
+  - title: Create the animation
+  - title: Loop the animation
   - title: Reflection
     knowledge_quiz:
       path: quiz1
