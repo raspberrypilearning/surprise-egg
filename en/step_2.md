@@ -19,7 +19,7 @@ Open the [surprise egg starter project](https://trinket.io/html/b7a6fc82b2){:tar
 
 --- task ---
 
-Find the comment `# Import the libraries` and import the SenseHAT library and the Sleep function.
+Find the comment `# Import the libraries` and import the SenseHAT library and the `sleep` function.
 
 --- code ---
 ---
@@ -151,7 +151,7 @@ frame_1 = [
 
 Find the comment `# Display Animation`.
 
-Enter the code `` to display the first frame on the LED matrix.
+Enter the code `sense.set_pixels(frame_1)` to display the first frame on the LED matrix.
 
 --- code ---
 ---
@@ -163,7 +163,7 @@ line_highlights: 44
 ---
 # Display Animation
 
-sense.set_pixels(frame_1)
+sense.set_pixels(frame_1) # Set pixels using the frame_1 list
 --- /code ---
 
 --- /task ---
