@@ -5,7 +5,7 @@
 In this step, you will create the rest of the frames for your animation. 
 </div>
 <div>
-![A screenshot of what will be achieved by the end of this step.](images/step-three-output.gif){:width="300px"}
+![An animation of what will be achieved by the end of this step.](images/step-three-output.gif){:width="300px"}
 </div>
 </div>
 
@@ -167,7 +167,7 @@ sleep(2)
 
 **Test**: Click on Run and test that your animation now works. You should see the egg cracking to reveal a surprise inside. 
 
-![A screenshot of what will be achieved by the end of this step.](images/step-three-output.gif){:width="300px"}
+![An animation of what will be achieved by the end of this step.](images/step-three-output.gif){:width="300px"}
 
 --- /task ---
 
