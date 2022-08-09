@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will create the rest of the frames for your animation. 
+In this step, you will create the other three frames for your animation. 
 </div>
 <div>
 ![An animation of what will be achieved by the end of this step.](images/step-three-output.gif){:width="300px"}
@@ -18,6 +18,8 @@ Your animation uses 4 frames in total.
 Find the comment `# Frame 2 - A crack appears`.
 
 Underneath, enter the code for the second frame.
+
+**Remember** to index the code within the list.
 
 --- code ---
 ---
@@ -108,7 +110,7 @@ Now that you have all four frames, it is time to animate them!
 
 Find the comment `# Display Animation`.
 
-Enter the two lines of code to `sleep` the program and display the next frame.
+Below your first image, enter the two lines of code to `sleep` the program then display the next frame.
 
 --- code ---
 ---
@@ -132,6 +134,18 @@ sense.set_pixels(frame_2)
 **Test**: Click Run and test your program. You should see the first frame and then the second frame. 
 
 ![A short animation showing the animation created on the LED matrix. An egg cracks.](images/egg-crack.gif){:width="300px"}
+
+--- /task ---
+
+--- task ---
+
+**Debug**:
+
+My code has a syntax error!
++ Check that you code matches the code in the examples above
++ Check that you have indented the code in your list
++ Check that your list is surrounded by [ and ] 
++ Check that each colour variable in the list is seperated by a comma.
 
 --- /task ---
 

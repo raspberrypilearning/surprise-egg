@@ -4,7 +4,7 @@ Awesome! You have made a frame by frame animation! Now it's time to reflect - re
 
 Answer the three questions below to reflect on what you've learned.
 
-After each question, press submit. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+After each question, press 'Check my answer'. You will be guided towards the correct answer. You can do this activity as many times as you want to.
 
 Have fun!
 
@@ -14,7 +14,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-A CoderDojo ninja wants to create an animation that is **10 seconds** long. They have **5 frames** and each frame is displayed for **1 second**. 
+An animator wants to create an animation that is **10 seconds** long. They have **5 frames** and each frame is displayed for **1 second**. 
 
 How many times should the animation repeat to make it 10 seconds long? 
 

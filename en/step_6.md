@@ -12,6 +12,7 @@ You could:
 + Add more frames that show the chicken walking around
 + Design a new cute character that could be hatched from the egg
 
+[Design a new 8x8 image]
 
 --- /task ---
 

@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-A Code Club creator has created a colour palette for their animation. The code for the colour palette looks like this:
+A designer has created a colour palette for their animation. The code for the colour palette looks like this:
 
 --- code ---
 ---
@@ -36,7 +36,7 @@ Try again. Line 6 is written correctly but there is something else wrong with th
 
   --- /feedback ---
 
-- (x) The code on line 6 is correct. However, when Python goes to line 7 it creates a new variable called `b` and stores the brown colour values within it. This is the variable that is access when the `b` variable is called to display the colour.
+- (x) The code on line 6 is correct. However, when Python goes to line 7 it creates a new variable called `b` and stores the brown colour values within it. This is the variable that is accessed when the `b` variable is called to display the colour.
 
   --- feedback ---
 
