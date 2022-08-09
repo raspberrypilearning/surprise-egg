@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-In this step, you will use a `for` loop to repeat the animation three times and create a 15 second animation. 
+In this step, you will use a `for` loop to repeat the animation three times to create a 15 second animation. 
 </div>
 <div>
 ![An animation of what will be achieved by the end of this step.](images/step-four-output.gif){:width="300px"}
@@ -11,7 +11,7 @@ In this step, you will use a `for` loop to repeat the animation three times and 
 
 ### Loop the animation
 
-A `for` loop can be used to repeat a block of code for a set number of times. This animation needs to be 15 seconds long. If you count the values in the brackets of the `sleep()` functions then you can see that the total is **5**. 
+A `for` loop can be used to repeat a block of code for a set number of times. This animation needs to be 15 seconds long. If you count the values in the brackets of the `sleep()` function calls then you can see that the total is **5**. 
 
 --- code ---
 ---
@@ -70,7 +70,7 @@ sleep(2)
 
 You need to tell Python which lines of code should be repeated three times. You can do this by indenting the code so that it sits **inside** the loop.
 
-**Add spaces** before each line of code to indent them.
+To do this, Use the Tab character on your keyboard before each line of code to indent them. 
 
 --- collapse ---
 ---
@@ -113,5 +113,20 @@ for x in range(3): # Repeat the animation three times
 ![An animation of what will be achieved by the end of this step.](images/step-four-output.gif){:width="300px"}
 
 --- /task ---
+
+--- task ---
+
+**Debug**:
+
+I get a syntax error when I run my code!
++ Check that you code matches the code in the examples above
++ Check that you have added indents where they are needed
++ Make sure that `for x in range(3):` has a colon `:` at the end
+
+Only some of my frames are shown multiple times:
++ Check that all the lines of code are indented.
+ 
+--- /task ---
+
 
 --- save ---
