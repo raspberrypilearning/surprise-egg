@@ -13,7 +13,7 @@ In this step, you will set up your SenseHAT and create the first frame of your a
 
 --- task ---
 
-Open the [surprise egg starter project](https://trinket.io/html/b7a6fc82b2){:target="_blank"}.
+Open the [surprise egg starter project](https://trinket.io/python/b7a6fc82b2){:target="_blank"}.
 
 --- /task ---
 
@@ -27,10 +27,9 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 3-4
+line_highlights: 2-3
 ---
 # Import the libraries
-
 from sense_hat import SenseHat
 from time import sleep
 --- /code ---
@@ -48,11 +47,10 @@ Enter the code `sense = SenseHat()` to connect to the SenseHAT.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 6
-line_highlights: 8
+line_number_start: 5
+line_highlights: 6
 ---
 # Set up the SenseHAT
-
 sense = SenseHat()
 --- /code ---
 
@@ -73,16 +71,35 @@ Enter the code for the image colour palette.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 10 
-line_highlights: 12-16
+line_number_start: 8 
+line_highlights: 9-13
 ---
 # Colour palette
-
 w = (255, 255, 255) # White
 y = (255, 255, 0) # Yellow
 g = (30, 30, 30) # Dark grey
 b = (0, 0, 0) # Black
 r = (139, 69, 19) # Brown
+--- /code --- 
+
+--- /task ---
+
+### Setup a function for your animation
+
+--- task ---
+
+Find the comment `# Egg animation` and enter the code to setup your function.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 15 
+line_highlights: 16
+---
+# Egg animation
+def egg_animation():
 --- /code --- 
 
 --- /task ---
@@ -97,52 +114,77 @@ Python can store related data as a list. You can create lists by using square br
 
 --- task ---
 
-Find the comment `# Frame 1 - The egg`.
+Find the indented comment `# Frame 1 - The egg`.
 
 Enter the code for the list that will be used to display the colours on the LED matrix.
 
-Make sure that you **indent** the code within the list like the example below. To do this, use the Tab character on your keyboard (usually above CAPSLOCK on the keyboard). Indenting this code tells Python that the indented lines are part of the list. 
+Make sure that you **indent** the code within the function, in line with the comment. Then **indent** your list like the example below. 
+
+**Tip:** To do this, use the Tab character on your keyboard (usually above CAPSLOCK on the keyboard). Indenting this code tells Python that the indented lines are part of the list. 
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 18
-line_highlights: 20-28
+line_number_start: 15
+line_highlights: 19-27
 ---
-# Frame 1 - The egg
+# Egg animation
+def egg_animation():
 
-frame_1 = [
-  w, w, w, g, g, w, w, w, 
-  w, w, g, w, w, g, w, w, 
-  w, g, w, w, w, w, g, w, 
-  w, g, w, w, w, w, g, w, 
-  w, g, w, w, w, w, g, w, 
-  w, g, w, w, w, w, g, w, 
-  w, w, g, w, w, g, w, w, 
-  w, w, w, g, g, w, w, w]
+  # Frame 1 - The egg
+  frame_1 = [
+    w, w, w, g, g, w, w, w, 
+    w, w, g, w, w, g, w, w, 
+    w, g, w, w, w, w, g, w, 
+    w, g, w, w, w, w, g, w, 
+    w, g, w, w, w, w, g, w, 
+    w, g, w, w, w, w, g, w, 
+    w, w, g, w, w, g, w, w, 
+    w, w, w, g, g, w, w, w]
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Find the comment `# Display Animation`.
+Find the comment `# Set pixels`.
 
-Enter the code `sense.set_pixels(frame_1)` to display the first frame on the LED matrix.
+Enter the code `sense.set_pixels(frame_1)` to display the first frame on the LED matrix. 
+
+Make sure your code is indented in line with the comment. 
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 42
-line_highlights: 44
+line_number_start: 38
+line_highlights: 39
+---
+# Set pixels
+sense.set_pixels(frame_1) # Set pixels using the frame_1 list
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Find the comment `# Display animation` and add code to call your `egg_animation()` function.
+
+This code should **not** be indented.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 41
+line_highlights: 42
 ---
 # Display Animation
-
-sense.set_pixels(frame_1) # Set pixels using the frame_1 list
+egg_animation()
 --- /code ---
 
 --- /task ---

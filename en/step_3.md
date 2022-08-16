@@ -26,11 +26,10 @@ Underneath, enter the code for the second frame.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 30
-line_highlights: 32-40
+line_number_start: 29
+line_highlights: 30-38
 ---
 # Frame 2 - A crack appears
-
 frame_2 = [
   w, w, w, g, g, w, w, w, 
   w, w, g, w, w, g, w, w, 
@@ -55,11 +54,10 @@ Enter the code for the third frame.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 42
-line_highlights: 44-52
+line_number_start: 40
+line_highlights: 41-49
 ---
 # Frame 3 - The lid pops off
-
 frame_3 = [
   w, w, w, w, w, w, w, w, 
   w, w, w, w, w, g, w, w, 
@@ -84,11 +82,10 @@ Enter the code for the fourth frame.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 54
-line_highlights: 56-64
+line_number_start: 51
+line_highlights: 52-60
 ---
 # Frame 4 - The surprise appears
-
 frame_4 = [
   w, w, w, y, y, y, w, w, 
   w, w, r, y, b, y, w, w, 
@@ -104,24 +101,23 @@ frame_4 = [
 
 ### Animate the frames
 
-Now that you have all four frames, it is time to animate them!
+Now that you have all four frames, it is time to set up the pixels on your LED matrix!
 
 --- task ---
 
-Find the comment `# Display Animation`.
+Find the comment `# Set pixels`.
 
-Below your first image, enter the two lines of code to `sleep` the program then display the next frame.
+Below your first frame, enter the two lines of code to `sleep` the program then display the next frame.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 66
-line_highlights: 69-70
+line_number_start: 62
+line_highlights: 64-65
 ---
-# Display Animation
-
+# Set pixels
 sense.set_pixels(frame_1) # Set pixels using the frame_1 list
 sleep(1)
 sense.set_pixels(frame_2)
@@ -158,11 +154,10 @@ Complete the animation by adding in the code to display the other two frames. Re
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 66
-line_highlights: 71-75
+line_number_start: 62
+line_highlights: 66-70
 ---
-# Display Animation
-
+# Set pixels
 sense.set_pixels(frame_1) # Set pixels using the frame_1 list
 sleep(1)
 sense.set_pixels(frame_2)
