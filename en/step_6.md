@@ -10,6 +10,7 @@ You could:
 + Design a new cute character that could be hatched from the egg
 
 [[[design-template]]]
+[[[draw-own-image-sensehat]]]
 
 --- /task ---
 
