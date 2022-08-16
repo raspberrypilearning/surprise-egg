@@ -18,11 +18,10 @@ A `for` loop can be used to repeat a block of code for a set number of times. Th
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 66
-line_highlights: 69, 71, 73, 75
+line_number_start: 62
+line_highlights: 64, 66, 68, 70
 ---
 # Display Animation
-
 sense.set_pixels(frame_1) # Set pixels using the frame_1 list
 sleep(1)
 sense.set_pixels(frame_2)
@@ -33,75 +32,50 @@ sense.set_pixels(frame_4)
 sleep(2)
 --- /code ---
 
-To create a **15 second** animation, you need to repeat this block of code **3 times**. This is because **3 x 5 = 15**.
+To make your animation last **15 seconds** in total, you need to repeat it **3 times**. This is because **3 x 5 = 15**.
 
 --- task ---
 
-Find the the line of code that says `sense.set_pixels(frame_1) # Set pixels using the frame_1 list`.
+Find the the comment that says `# Display animation`.
 
-Enter the code for a `for` loop **above** it. 
+Create a new line by pressing the enter key. 
+
+Add code to setup your `for` loop. 
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 66
-line_highlights: 68
+line_number_start: 72
+line_highlights: 73-74
 ---
 # Display Animation
-
-for x in range(3): # Repeat the animation three times
-sense.set_pixels(frame_1) # Set pixels using the frame_1 list
-sleep(1)
-sense.set_pixels(frame_2)
-sleep(1)
-sense.set_pixels(frame_3)
-sleep(1)
-sense.set_pixels(frame_4)
-sleep(2)
+for x in range(3): # Repeat the animation 
+egg_animation()
 --- /code ---
 
-**Tip**: Your code will not work at this point so don't try to run it!
+**Tip**: Your code will not work at the moment so don't try and run it.
 
 --- /task ---
 
---- task ---
-
 You need to tell Python which lines of code should be repeated three times. You can do this by indenting the code so that it sits **inside** the loop.
 
-To do this, Use the Tab character on your keyboard before each line of code to indent them. 
+--- task ---
 
---- collapse ---
----
-title: Quickly indent a chunk of code
----
-
-If you want to quickly indent a whole chunk of code then **highlight** it and then press the **tab** key on your keyboard. 
-
-![An animation showing a chunk of code being indented in one go by using the tab key.](images/tab-code.gif){:width="300px"}
-
---- /collapse ---
+**Indent** your `egg_animation()` function call so that it sits inside the loop. 
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 66
-line_highlights: 69-76
+line_number_start: 72
+line_highlights: 73-74
 ---
 # Display Animation
-
-for x in range(3): # Repeat the animation three times
-  sense.set_pixels(frame_1) # Set pixels using the frame_1 list
-  sleep(1)
-  sense.set_pixels(frame_2)
-  sleep(1)
-  sense.set_pixels(frame_3)
-  sleep(1)
-  sense.set_pixels(frame_4)
-  sleep(2)
+for x in range(3): # Repeat the animation 
+  egg_animation()
 --- /code ---
 
 --- /task ---
@@ -127,6 +101,5 @@ Only some of my frames are shown multiple times:
 + Check that all the lines of code are indented.
  
 --- /task ---
-
 
 --- save ---
