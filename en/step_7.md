@@ -4,7 +4,7 @@ If you are following the [Intro to the SenseHAT](https://projects.raspberrypi.or
 
 --- print-only ---
 
-![alt=""](images/chameleon-lights.png)
+![](images/chameleon-lights.png)
 
 --- /print-only ---
 
