@@ -11,15 +11,6 @@ You will:
 + Create a frame by frame animation using the LED matrix
 + Introduce a loop to repeat the animation three times
 
-You will need:
-+ A web browser for the SenseHAT emulator
-
-Optional:
-+ A Raspberry Pi computer
-+ A SenseHAT
-
-[[[rpi-sensehat-attach]]]
-
 --- no-print ---
 --- task ---
 ### Click Run and try it
@@ -37,3 +28,12 @@ How many times does the animation repeat? How many frames are in the animation?
 --- print-only ---
 ![Completed project](images/solution.PNG)
 --- /print-only ---
+
+You will need:
++ A web browser for the SenseHAT emulator
+
+Optional:
++ A Raspberry Pi computer
++ A SenseHAT
+
+[[[rpi-sensehat-attach]]]
